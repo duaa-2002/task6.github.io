@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+        <style>
+            *{
+                margin:0;
+                padding:0;
+                box-sizing: border-box;
+                
+            }
+
+            .container{
+                background:url(hi.jpg);
+                position:relative;
+                display: flex;
+                flex-direction: column;
+                cursor:pointer;
+                opacity:.8;
+                width:100vw;
+                height:100vh;
+                background-repeat: no-repeat;
+                justify-content: center;
+                align-items: center;
+                border-radius:20px;
+            }
+        
+            
+
+            form{
+                display: flex;
+                align-content:center;
+                align-items: center;
+                background-color:wheat;
+                padding:40px;
+                opacity:.7;
+                flex-direction: column;
+                
+
+
+                
+            }
+            form h1{
+                margin:20px;
+            }
+            #first input{
+                display: block;
+                margin:10px;
+                padding:20px;
+                border-radius:5px;
+                border:1px;
+                text-align:left;
+                width:100%;
+
+                
+            }
+            #first{
+                width:100%;
+            }
+
+        #first button{
+                display: block;
+                width:100%;
+                margin:10px;
+                padding:10px;
+                background-color: darkgreen;
+                color: white;
+            }
+        
+         .second a{
+            margin:10px;
+            }
+        
+        </style>
+    </head>
+    <body>
+        <div class="container">
+        
+            <form>
+                
+
+                <h1>Account Login</h1>
+
+                <div id="first">
+                    <input   type="text"     placeholder="Username">
+                    <input   type="password" placeholder="password">
+                    <button   type="submit">login</button>
+                </div>
+                
+                <div class="second">
+                    
+                      <input  type="checkbox" name="1" value="remember me">
+                      <label> remember me</label>
+                    <a href="#">Forgot password?</a></label>
+                </div>
+
+            </form>  
+
+         </div>  
+   
+    </body>
+
+</html>
